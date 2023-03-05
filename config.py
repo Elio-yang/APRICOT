@@ -33,10 +33,8 @@ class PGOConfig:
     # node feature length
     # in_channels
     in_features: int = 1433
-    # TODO： FIX hidden_features
-    #   maybe in better GPU, and try 256
-    #   cause after conv the shape is [12,256]
-    hidden_features: int = 64
+
+    hidden_features: int = 32
     out_features: int = 64
     num_heads: int = 2
     num_layers: int = 5

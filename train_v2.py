@@ -159,13 +159,13 @@ if __name__ == '__main__':
     dl_num_workers = config.dl_num_workers
 
     train_dataloader = DataLoader(train_dataset,
-                                  batch_size=2,
+                                  batch_size=1,
                                   shuffle=True,
                                   num_workers=dl_num_workers,
                                   pin_memory=True
                                   )
     valid_dataloader = DataLoader(valid_dataset,
-                                  batch_size=2,
+                                  batch_size=1,
                                   shuffle=True,
                                   num_workers=dl_num_workers,
                                   pin_memory=True)

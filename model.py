@@ -81,9 +81,9 @@ class Model(nn.Module):
                  glob_att: bool):
         super(Model, self).__init__()
 
-        self.drop=dropout
+        self.drop = dropout
         self.num_layers = num_layers
-        self.glob_att =  glob_att
+        self.glob_att = glob_att
 
         # conv layers
         if conv_type == "transformer":
@@ -103,6 +103,7 @@ class Model(nn.Module):
 
         # backbones
 
+        # output shape is [hidden_features * num_heads]
         self.conv1 = conv_class(
             in_features,
             hidden_features,
@@ -110,6 +111,7 @@ class Model(nn.Module):
             dropout=dropout
         )
 
+        # cause conv1 output size, so in_channels = hidden_features * num_heads here
         self.convs = nn.ModuleList([
             conv_class(
                 hidden_features * num_heads,
@@ -120,30 +122,42 @@ class Model(nn.Module):
             for _ in range(num_layers)
         ])
 
-        self.conv2 = conv_class(
-            hidden_features * num_heads,
-            out_features,
-            heads=num_heads,
-            dropout=dropout
-        )
+        # output size is [out_features * num_heads]
+        # not used actually
+        # self.conv2 = conv_class(
+        #     hidden_features * num_heads,
+        #     out_features,
+        #     heads=num_heads,
+        #     dropout=dropout
+        # )
 
         self.jkn = JumpingKnowledge(jkn_type, hidden_features, num_layers=2)
 
         if self.glob_att:
             self.gate_nn = Sequential(
-                Linear(hidden_features, hidden_features),
+                Linear(hidden_features * num_heads, hidden_features),
                 ReLU(),
                 Linear(hidden_features, 1)
             )
             self.glob = MyGlobalAttention(self.gate_nn, None)
 
-
+        if self.glob_att:
             # prediction
-        self.mlp = nn.Sequential(
-            nn.Linear(out_features, 64),
-            nn.ReLU(inplace=True),
-            nn.Linear(64, num_classes)
-        )
+            self.mlp = nn.Sequential(
+                nn.Linear(hidden_features * num_heads + 1, 128),
+                nn.ReLU(inplace=True),
+                nn.Linear(128, 64),
+                nn.ReLU(inplace=True),
+                nn.Linear(64, num_classes)
+            )
+        else:
+            self.mlp = nn.Sequential(
+                nn.Linear(hidden_features * num_heads, 128),
+                nn.ReLU(inplace=True),
+                nn.Linear(128, 64),
+                nn.ReLU(inplace=True),
+                nn.Linear(64, num_classes)
+            )
 
     def forward(self, x: torch.Tensor, edge_index: torch.Tensor, batch: torch.Tensor):
         """
@@ -173,9 +187,10 @@ class Model(nn.Module):
         # TODO: FIX SHAPE CONFLICT HERE
         #   MAY NEED BETTER GPU
         if self.glob_att:
-            x, node_att_scores = self.glob(x, batch)
-        else:
-            x = global_add_pool(x, batch)
+            y, node_att_scores = self.glob(x, batch)
+            x = torch.cat([x, node_att_scores], dim=1)
+            print(f"node_score shape {node_att_scores.shape}")
+
         print(f"after global att shape {x.shape}")
         x = self.mlp(x)
         print(f"final shape {x.shape}")
