@@ -8,6 +8,7 @@
 """
 import traceback
 from torch_geometric.data import DataLoader
+
 from utils import *
 
 
@@ -26,6 +27,8 @@ def train(model, train_dataloader, valid_dataloader, optimizer, criterion, devic
 
         flag1=False
         flag2=False
+
+        #print(model)
 
         optimizer.zero_grad()
         # [N,num_types]
