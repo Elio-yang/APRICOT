@@ -5,6 +5,7 @@ import torch
 import numpy as np
 import random
 import subprocess
+import time
 
 from torch.utils.data import random_split
 from torch.utils.data import Dataset
@@ -92,5 +93,5 @@ class PGOConfig:
                 "of_" + str(self.out_features) + "_" \
                 "nh_" + str(self.num_heads) + "_" \
                 "nl_" + str(self.num_layers) + "_" \
-                "nc_" + str(self.num_classes)
+                "nc_" + str(self.num_classes) + "@" + time.strftime("%Y_%m_%d_%H:%M:%S", time.localtime())
         return mark

@@ -165,33 +165,35 @@ class Model(nn.Module):
         * `adj_mat` is the adjacency matrix of the form
          `[n_nodes, n_nodes, n_heads]` or `[n_nodes, n_nodes, 1]`
         """
-        print(f"start shape {x.shape}")
+        # print(f"start shape {x.shape}")
+
         x = F.dropout(x, p=self.drop, training=self.training)
         x = self.conv1(x, edge_index)
         x = self.activation(x)
-        print(f"after conv 1 shape {x.shape}")
+        # print(f"after conv 1 shape {x.shape}")
         hlist = [x]
+
         for i in range(self.num_layers):
             x = F.dropout(x, p=self.drop, training=self.training)
             x = self.convs[i](x, edge_index)
             if i != self.num_layers - 1:
                 x = self.activation(x)
-            print(x.shape)
+            # print(x.shape)
             hlist.append(x)
         x = F.dropout(x, p=self.drop, training=self.training)
-        print(f"after conv layers shape {x.shape}")
+        # print(f"after conv layers shape {x.shape}")
         hlist.append(x)
         for j in hlist:
             x = self.jkn(hlist)
-        print(f"after jkn shape {x.shape}")
+        # print(f"after jkn shape {x.shape}")
         # TODO: FIX SHAPE CONFLICT HERE
         #   MAY NEED BETTER GPU
         if self.glob_att:
             y, node_att_scores = self.glob(x, batch)
             x = torch.cat([x, node_att_scores], dim=1)
-            print(f"node_score shape {node_att_scores.shape}")
+            # print(f"node_score shape {node_att_scores.shape}")
 
-        print(f"after global att shape {x.shape}")
+        # print(f"after global att shape {x.shape}")
         x = self.mlp(x)
-        print(f"final shape {x.shape}")
+        # print(f"final shape {x.shape}")
         return x
