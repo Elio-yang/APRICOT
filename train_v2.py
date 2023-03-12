@@ -11,22 +11,32 @@ from torch_geometric.data import DataLoader
 
 from utils import *
 
+first = True
 
 def train(model, train_dataloader, valid_dataloader, optimizer, criterion, device):
+    global first
+    
     train_tot_epoch_loss = 0.0
     train_tot_epoch_accuracy = 0.0
 
     model.train()
     for i, data in enumerate(train_dataloader):
+        
+        if first:
+            print("start training")
+            first = False
+            
         features, edge_index, labels, batch = data.x, data.edge_index, data.y, data.batch
+        
+        #print(data.name)
 
         features = features.to(device, non_blocking=True)
         edge_index = edge_index.to(device, non_blocking=True)
         labels = labels.to(device, non_blocking=True)
         batch = batch.to(device, non_blocking=True)
 
-        flag1=False
-        flag2=False
+        # flag1=False
+        # flag2=False
 
         #print(model)
 
@@ -42,26 +52,26 @@ def train(model, train_dataloader, valid_dataloader, optimizer, criterion, devic
         if maksed_labels_1.numel() != 0:
             maksed_output_1 = outputs[mask1]
             loss1= criterion(maksed_output_1, maksed_labels_1)
-            loss1.backward(retain_graph=True)
+            loss1.backward()
+            optimizer.step()
             train_tot_epoch_loss += loss1.item()
             train_tot_epoch_accuracy += calc_accuracy(maksed_output_1, maksed_labels_1)
         #================================================
-        # output is br
-        output_idx=outputs.argmax(dim=-1)
-        # output type is branch
-        mask2 = (output_idx<=2)
-        mask3 = (labels >2)
-        output_filter=outputs[mask2 & mask3]
-        if output_filter.numel() != 0:
-            maksed_labels_2 = labels[mask2 & mask3]
-            loss2= criterion(output_filter, maksed_labels_2)
-            loss2.backward()
-            train_tot_epoch_loss += loss2.item()
-            train_tot_epoch_accuracy += calc_accuracy(output_filter, maksed_labels_2)
+        # # output is br
+        # output_idx=outputs.argmax(dim=-1)
+        # # output type is branch
+        # mask2 = (output_idx<=2)
+        # mask3 = (labels >2)
+        # output_filter=outputs[mask2 & mask3]
+        # if output_filter.numel() != 0:
+        #     maksed_labels_2 = labels[mask2 & mask3]
+        #     loss2= criterion(output_filter, maksed_labels_2)
+        #     loss2.backward()
+        #     train_tot_epoch_loss += loss2.item()
+        #     train_tot_epoch_accuracy += calc_accuracy(output_filter, maksed_labels_2)
         #================================================
-        if flag1 or flag2:
-            optimizer.step()
-
+        # if flag1 or flag2:
+        #     optimizer.step()
         # TODO:
         #   should be checked
         torch.cuda.empty_cache()
@@ -69,8 +79,8 @@ def train(model, train_dataloader, valid_dataloader, optimizer, criterion, devic
     model.eval()
     with torch.no_grad():
 
-        flag1=False
-        flag2=False
+        # flag1=False
+        # flag2=False
 
         eval_tot_epoch_loss = 0.0
         eval_tot_epoch_accuracy = 0.0
@@ -93,21 +103,20 @@ def train(model, train_dataloader, valid_dataloader, optimizer, criterion, devic
             if maksed_labels_1.numel() != 0:
                 maksed_output_1 = outputs[mask1]
                 loss1= criterion(maksed_output_1, maksed_labels_1)
-
                 eval_tot_epoch_loss += loss1.item()
                 eval_tot_epoch_accuracy += calc_accuracy(maksed_output_1, maksed_labels_1)
             #================================================
-            # output is br
-            output_idx=outputs.argmax(dim=-1)
-            # output type is branch
-            mask2 = (output_idx<=2)
-            mask3 = (labels >2)
-            output_filter=outputs[mask2 & mask3]
-            if output_filter.numel() != 0:
-                maksed_labels_2 = labels[mask2 & mask3]
-                loss2= criterion(output_filter, maksed_labels_2)
-                eval_tot_epoch_loss += loss2.item()
-                eval_tot_epoch_accuracy += calc_accuracy(output_filter, maksed_labels_2)
+            # # output is br
+            # output_idx=outputs.argmax(dim=-1)
+            # # output type is branch
+            # mask2 = (output_idx<=2)
+            # mask3 = (labels >2)
+            # output_filter=outputs[mask2 & mask3]
+            # if output_filter.numel() != 0:
+            #     maksed_labels_2 = labels[mask2 & mask3]
+            #     loss2= criterion(output_filter, maksed_labels_2)
+            #     eval_tot_epoch_loss += loss2.item()
+            #     eval_tot_epoch_accuracy += calc_accuracy(output_filter, maksed_labels_2)
 
 
     return train_tot_epoch_loss / len(train_dataloader), \
@@ -159,13 +168,13 @@ if __name__ == '__main__':
     dl_num_workers = config.dl_num_workers
 
     train_dataloader = DataLoader(train_dataset,
-                                  batch_size=1,
+                                  batch_size=config.batch_size,
                                   shuffle=True,
                                   num_workers=dl_num_workers,
                                   pin_memory=True
                                   )
     valid_dataloader = DataLoader(valid_dataset,
-                                  batch_size=1,
+                                  batch_size=config.batch_size,
                                   shuffle=True,
                                   num_workers=dl_num_workers,
                                   pin_memory=True)
@@ -190,7 +199,8 @@ if __name__ == '__main__':
 
     # save config
     with open(file_config_path, "w") as fp:
-        fp.write(dir_name + "\n")
+        configs = config.format_gen()
+        fp.write(configs + "\n")
 
     min_train_loss = float("inf")
     epoch_mtl = 0
@@ -206,6 +216,11 @@ if __name__ == '__main__':
     try:
         # for epoch in tqdm.tqdm(range(config.epochs)):
         for epoch in range(config.epochs):
+            
+            info1 = "-------------------------------------------\n"\
+                    "{} Start Epoch {}/{}\n".format(time.strftime("%Y_%m_%d_%H:%M:%S", time.localtime()),epoch + 1,config.epochs)
+            print(info1)
+            
             avg_epoch_train_loss, \
                 avg_epoch_train_accuracy, \
                 avg_epoch_valid_loss, \
@@ -226,8 +241,9 @@ if __name__ == '__main__':
                 fp.write(info1)
 
             # save epoch info
-            info2 = "==============Epoch {}/{}==============\n" \
+            info2 = "{} End Epoch {}/{}\n" \
                     "train_loss: {:.4f}  train_accuracy:{:.4f}  test_loss: {:.4f}  test_accuracy:{:.4f}\n".format(
+                time.strftime("%Y_%m_%d_%H:%M:%S", time.localtime()),
                 epoch + 1,
                 config.epochs,
                 avg_epoch_train_loss,

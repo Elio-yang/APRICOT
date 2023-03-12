@@ -33,7 +33,7 @@ class PGOConfig:
 
     # node feature length
     # in_channels
-    in_features: int = 1433
+    in_features: int = 512
 
     hidden_features: int = 32
     out_features: int = 64
@@ -68,7 +68,8 @@ class PGOConfig:
     loss_func_1 = nn.MSELoss()
     # Device to train on
     gpu: int = 0
-    device: torch.device = str('cuda:{}'.format(gpu) if torch.cuda.is_available() and gpu != -1 else 'cpu')
+    # device: torch.device = str('cuda:{}'.format(gpu) if torch.cuda.is_available() and gpu != -1 else 'cpu')
+    device: torch.device = 'cpu'
     # Optimizer
     optimizer: str = "Adam"
 

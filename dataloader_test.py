@@ -22,8 +22,9 @@ if __name__ == '__main__':
 
     for data in train_dataloader:
         # Move the data to the GPU
-        nodes, adj_matrix, labels = data.x,data.edge_index,data.y
-        print(nodes.shape)
-        print(adj_matrix.shape)
+        # feature, edge_idx, label
+        features, edge_idx, labels = data.x,data.edge_index,data.y
+        print(features.shape)
+        print(edge_idx.shape)
         print(labels.shape)
         pass
