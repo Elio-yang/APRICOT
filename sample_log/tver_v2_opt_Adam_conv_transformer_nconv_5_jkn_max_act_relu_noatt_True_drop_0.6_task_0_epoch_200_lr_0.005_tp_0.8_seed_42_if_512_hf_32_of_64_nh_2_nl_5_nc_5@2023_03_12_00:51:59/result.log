@@ -1,0 +1,4 @@
+min_train_loss:1.0789894592561078 at epoch 69
+min_test_loss:1.0745977199479435 at epoch 190
+max_train_acc:0.42923067125052555 at epoch 154
+max_test_acc:0.43867866642671344 at epoch 190

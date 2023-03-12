@@ -1,0 +1,20 @@
+train_version      v2
+optimizer          Adam
+conv_layer         transformer
+number conv_layers 5
+jkn mode           max
+activation         relu
+node attention     True
+dropout            0.6
+task type          0
+epochs             200
+learnning rate     0.005
+data% for training 0.8
+seed               42
+in channel         512
+hidden channel     32
+oouput channel     64
+num heads          2
+num layers         5
+num classes        5
+start time         2023_03_12_00:51:59

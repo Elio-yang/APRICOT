@@ -1,0 +1,400 @@
+2023_03_12_00:54:18 End Epoch 1/200
+train_loss: 1.2443  train_accuracy:0.4112  test_loss: 1.0819  test_accuracy:0.4351
+2023_03_12_00:56:41 End Epoch 2/200
+train_loss: 1.0847  train_accuracy:0.4268  test_loss: 1.0774  test_accuracy:0.4370
+2023_03_12_00:59:07 End Epoch 3/200
+train_loss: 1.0810  train_accuracy:0.4283  test_loss: 1.0761  test_accuracy:0.4362
+2023_03_12_01:01:30 End Epoch 4/200
+train_loss: 1.0797  train_accuracy:0.4277  test_loss: 1.0754  test_accuracy:0.4371
+2023_03_12_01:03:55 End Epoch 5/200
+train_loss: 1.0800  train_accuracy:0.4269  test_loss: 1.0762  test_accuracy:0.4361
+2023_03_12_01:06:17 End Epoch 6/200
+train_loss: 1.0796  train_accuracy:0.4280  test_loss: 1.0761  test_accuracy:0.4366
+2023_03_12_01:08:37 End Epoch 7/200
+train_loss: 1.0793  train_accuracy:0.4286  test_loss: 1.0763  test_accuracy:0.4352
+2023_03_12_01:10:58 End Epoch 8/200
+train_loss: 1.0799  train_accuracy:0.4272  test_loss: 1.0758  test_accuracy:0.4359
+2023_03_12_01:13:18 End Epoch 9/200
+train_loss: 1.0795  train_accuracy:0.4278  test_loss: 1.0754  test_accuracy:0.4372
+2023_03_12_01:15:36 End Epoch 10/200
+train_loss: 1.0795  train_accuracy:0.4282  test_loss: 1.0761  test_accuracy:0.4359
+2023_03_12_01:17:54 End Epoch 11/200
+train_loss: 1.0797  train_accuracy:0.4275  test_loss: 1.0766  test_accuracy:0.4351
+2023_03_12_01:20:18 End Epoch 12/200
+train_loss: 1.0794  train_accuracy:0.4283  test_loss: 1.0758  test_accuracy:0.4360
+2023_03_12_01:22:46 End Epoch 13/200
+train_loss: 1.0793  train_accuracy:0.4283  test_loss: 1.0754  test_accuracy:0.4374
+2023_03_12_01:25:07 End Epoch 14/200
+train_loss: 1.0794  train_accuracy:0.4280  test_loss: 1.0758  test_accuracy:0.4361
+2023_03_12_01:27:31 End Epoch 15/200
+train_loss: 1.0793  train_accuracy:0.4287  test_loss: 1.0761  test_accuracy:0.4357
+2023_03_12_01:29:54 End Epoch 16/200
+train_loss: 1.0797  train_accuracy:0.4279  test_loss: 1.0765  test_accuracy:0.4368
+2023_03_12_01:32:14 End Epoch 17/200
+train_loss: 1.0794  train_accuracy:0.4283  test_loss: 1.0764  test_accuracy:0.4347
+2023_03_12_01:34:35 End Epoch 18/200
+train_loss: 1.0797  train_accuracy:0.4277  test_loss: 1.0762  test_accuracy:0.4362
+2023_03_12_01:36:59 End Epoch 19/200
+train_loss: 1.0796  train_accuracy:0.4277  test_loss: 1.0761  test_accuracy:0.4359
+2023_03_12_01:39:23 End Epoch 20/200
+train_loss: 1.0795  train_accuracy:0.4281  test_loss: 1.0760  test_accuracy:0.4358
+2023_03_12_01:41:50 End Epoch 21/200
+train_loss: 1.0796  train_accuracy:0.4280  test_loss: 1.0763  test_accuracy:0.4351
+2023_03_12_01:44:15 End Epoch 22/200
+train_loss: 1.0796  train_accuracy:0.4280  test_loss: 1.0768  test_accuracy:0.4358
+2023_03_12_01:46:38 End Epoch 23/200
+train_loss: 1.0795  train_accuracy:0.4280  test_loss: 1.0766  test_accuracy:0.4354
+2023_03_12_01:49:01 End Epoch 24/200
+train_loss: 1.0796  train_accuracy:0.4278  test_loss: 1.0763  test_accuracy:0.4353
+2023_03_12_01:51:24 End Epoch 25/200
+train_loss: 1.0798  train_accuracy:0.4275  test_loss: 1.0765  test_accuracy:0.4353
+2023_03_12_01:53:52 End Epoch 26/200
+train_loss: 1.0798  train_accuracy:0.4273  test_loss: 1.0757  test_accuracy:0.4374
+2023_03_12_01:56:12 End Epoch 27/200
+train_loss: 1.0797  train_accuracy:0.4273  test_loss: 1.0763  test_accuracy:0.4352
+2023_03_12_01:58:36 End Epoch 28/200
+train_loss: 1.0797  train_accuracy:0.4278  test_loss: 1.0756  test_accuracy:0.4365
+2023_03_12_02:00:57 End Epoch 29/200
+train_loss: 1.0797  train_accuracy:0.4274  test_loss: 1.0763  test_accuracy:0.4355
+2023_03_12_02:03:22 End Epoch 30/200
+train_loss: 1.0800  train_accuracy:0.4269  test_loss: 1.0771  test_accuracy:0.4354
+2023_03_12_02:05:45 End Epoch 31/200
+train_loss: 1.0794  train_accuracy:0.4281  test_loss: 1.0760  test_accuracy:0.4364
+2023_03_12_02:08:06 End Epoch 32/200
+train_loss: 1.0794  train_accuracy:0.4282  test_loss: 1.0761  test_accuracy:0.4361
+2023_03_12_02:10:27 End Epoch 33/200
+train_loss: 1.0795  train_accuracy:0.4282  test_loss: 1.0759  test_accuracy:0.4364
+2023_03_12_02:12:51 End Epoch 34/200
+train_loss: 1.0793  train_accuracy:0.4286  test_loss: 1.0765  test_accuracy:0.4365
+2023_03_12_02:15:14 End Epoch 35/200
+train_loss: 1.0795  train_accuracy:0.4279  test_loss: 1.0757  test_accuracy:0.4363
+2023_03_12_02:17:32 End Epoch 36/200
+train_loss: 1.0796  train_accuracy:0.4279  test_loss: 1.0765  test_accuracy:0.4354
+2023_03_12_02:19:56 End Epoch 37/200
+train_loss: 1.0795  train_accuracy:0.4279  test_loss: 1.0754  test_accuracy:0.4369
+2023_03_12_02:22:20 End Epoch 38/200
+train_loss: 1.0798  train_accuracy:0.4271  test_loss: 1.0772  test_accuracy:0.4366
+2023_03_12_02:24:45 End Epoch 39/200
+train_loss: 1.0796  train_accuracy:0.4278  test_loss: 1.0760  test_accuracy:0.4355
+2023_03_12_02:27:07 End Epoch 40/200
+train_loss: 1.0795  train_accuracy:0.4280  test_loss: 1.0762  test_accuracy:0.4357
+2023_03_12_02:29:27 End Epoch 41/200
+train_loss: 1.0792  train_accuracy:0.4284  test_loss: 1.0762  test_accuracy:0.4365
+2023_03_12_02:31:55 End Epoch 42/200
+train_loss: 1.0796  train_accuracy:0.4277  test_loss: 1.0771  test_accuracy:0.4361
+2023_03_12_02:34:21 End Epoch 43/200
+train_loss: 1.0793  train_accuracy:0.4287  test_loss: 1.0764  test_accuracy:0.4362
+2023_03_12_02:36:42 End Epoch 44/200
+train_loss: 1.0792  train_accuracy:0.4285  test_loss: 1.0762  test_accuracy:0.4381
+2023_03_12_02:39:00 End Epoch 45/200
+train_loss: 1.0797  train_accuracy:0.4275  test_loss: 1.0758  test_accuracy:0.4365
+2023_03_12_02:41:22 End Epoch 46/200
+train_loss: 1.0794  train_accuracy:0.4280  test_loss: 1.0754  test_accuracy:0.4370
+2023_03_12_02:43:42 End Epoch 47/200
+train_loss: 1.0796  train_accuracy:0.4280  test_loss: 1.0754  test_accuracy:0.4370
+2023_03_12_02:46:07 End Epoch 48/200
+train_loss: 1.0793  train_accuracy:0.4284  test_loss: 1.0763  test_accuracy:0.4359
+2023_03_12_02:48:32 End Epoch 49/200
+train_loss: 1.0795  train_accuracy:0.4279  test_loss: 1.0768  test_accuracy:0.4364
+2023_03_12_02:50:53 End Epoch 50/200
+train_loss: 1.0795  train_accuracy:0.4282  test_loss: 1.0763  test_accuracy:0.4354
+2023_03_12_02:53:13 End Epoch 51/200
+train_loss: 1.0797  train_accuracy:0.4276  test_loss: 1.0757  test_accuracy:0.4362
+2023_03_12_02:55:35 End Epoch 52/200
+train_loss: 1.0798  train_accuracy:0.4271  test_loss: 1.0756  test_accuracy:0.4365
+2023_03_12_02:57:58 End Epoch 53/200
+train_loss: 1.0797  train_accuracy:0.4272  test_loss: 1.0768  test_accuracy:0.4357
+2023_03_12_03:00:22 End Epoch 54/200
+train_loss: 1.0793  train_accuracy:0.4286  test_loss: 1.0761  test_accuracy:0.4366
+2023_03_12_03:02:44 End Epoch 55/200
+train_loss: 1.0793  train_accuracy:0.4287  test_loss: 1.0767  test_accuracy:0.4346
+2023_03_12_03:05:07 End Epoch 56/200
+train_loss: 1.0795  train_accuracy:0.4278  test_loss: 1.0778  test_accuracy:0.4372
+2023_03_12_03:07:24 End Epoch 57/200
+train_loss: 1.0795  train_accuracy:0.4282  test_loss: 1.0759  test_accuracy:0.4361
+2023_03_12_03:09:48 End Epoch 58/200
+train_loss: 1.0793  train_accuracy:0.4282  test_loss: 1.0760  test_accuracy:0.4360
+2023_03_12_03:12:11 End Epoch 59/200
+train_loss: 1.0793  train_accuracy:0.4281  test_loss: 1.0785  test_accuracy:0.4362
+2023_03_12_03:14:35 End Epoch 60/200
+train_loss: 1.0799  train_accuracy:0.4272  test_loss: 1.0766  test_accuracy:0.4353
+2023_03_12_03:17:02 End Epoch 61/200
+train_loss: 1.0796  train_accuracy:0.4278  test_loss: 1.0768  test_accuracy:0.4353
+2023_03_12_03:19:21 End Epoch 62/200
+train_loss: 1.0794  train_accuracy:0.4282  test_loss: 1.0764  test_accuracy:0.4360
+2023_03_12_03:21:44 End Epoch 63/200
+train_loss: 1.0795  train_accuracy:0.4281  test_loss: 1.0766  test_accuracy:0.4346
+2023_03_12_03:24:07 End Epoch 64/200
+train_loss: 1.0792  train_accuracy:0.4285  test_loss: 1.0765  test_accuracy:0.4378
+2023_03_12_03:26:28 End Epoch 65/200
+train_loss: 1.0797  train_accuracy:0.4275  test_loss: 1.0759  test_accuracy:0.4361
+2023_03_12_03:28:50 End Epoch 66/200
+train_loss: 1.0800  train_accuracy:0.4269  test_loss: 1.0762  test_accuracy:0.4363
+2023_03_12_03:31:10 End Epoch 67/200
+train_loss: 1.0798  train_accuracy:0.4275  test_loss: 1.0758  test_accuracy:0.4361
+2023_03_12_03:33:31 End Epoch 68/200
+train_loss: 1.0800  train_accuracy:0.4270  test_loss: 1.0759  test_accuracy:0.4362
+2023_03_12_03:35:56 End Epoch 69/200
+train_loss: 1.0791  train_accuracy:0.4291  test_loss: 1.0753  test_accuracy:0.4384
+2023_03_12_03:38:17 End Epoch 70/200
+train_loss: 1.0790  train_accuracy:0.4288  test_loss: 1.0771  test_accuracy:0.4350
+2023_03_12_03:40:40 End Epoch 71/200
+train_loss: 1.0796  train_accuracy:0.4277  test_loss: 1.0765  test_accuracy:0.4366
+2023_03_12_03:43:06 End Epoch 72/200
+train_loss: 1.0795  train_accuracy:0.4278  test_loss: 1.0759  test_accuracy:0.4360
+2023_03_12_03:45:25 End Epoch 73/200
+train_loss: 1.0797  train_accuracy:0.4277  test_loss: 1.0763  test_accuracy:0.4369
+2023_03_12_03:47:47 End Epoch 74/200
+train_loss: 1.0795  train_accuracy:0.4279  test_loss: 1.0771  test_accuracy:0.4364
+2023_03_12_03:50:09 End Epoch 75/200
+train_loss: 1.0798  train_accuracy:0.4276  test_loss: 1.0756  test_accuracy:0.4367
+2023_03_12_03:52:31 End Epoch 76/200
+train_loss: 1.0794  train_accuracy:0.4279  test_loss: 1.0760  test_accuracy:0.4359
+2023_03_12_03:54:54 End Epoch 77/200
+train_loss: 1.0795  train_accuracy:0.4280  test_loss: 1.0760  test_accuracy:0.4370
+2023_03_12_03:57:18 End Epoch 78/200
+train_loss: 1.0795  train_accuracy:0.4276  test_loss: 1.0766  test_accuracy:0.4359
+2023_03_12_03:59:41 End Epoch 79/200
+train_loss: 1.0793  train_accuracy:0.4287  test_loss: 1.0755  test_accuracy:0.4373
+2023_03_12_04:02:03 End Epoch 80/200
+train_loss: 1.0797  train_accuracy:0.4276  test_loss: 1.0769  test_accuracy:0.4354
+2023_03_12_04:04:23 End Epoch 81/200
+train_loss: 1.0796  train_accuracy:0.4279  test_loss: 1.0760  test_accuracy:0.4363
+2023_03_12_04:06:44 End Epoch 82/200
+train_loss: 1.0794  train_accuracy:0.4283  test_loss: 1.0770  test_accuracy:0.4359
+2023_03_12_04:09:05 End Epoch 83/200
+train_loss: 1.0791  train_accuracy:0.4286  test_loss: 1.0762  test_accuracy:0.4352
+2023_03_12_04:11:25 End Epoch 84/200
+train_loss: 1.0796  train_accuracy:0.4278  test_loss: 1.0763  test_accuracy:0.4350
+2023_03_12_04:13:43 End Epoch 85/200
+train_loss: 1.0795  train_accuracy:0.4282  test_loss: 1.0756  test_accuracy:0.4369
+2023_03_12_04:16:05 End Epoch 86/200
+train_loss: 1.0797  train_accuracy:0.4275  test_loss: 1.0762  test_accuracy:0.4364
+2023_03_12_04:18:26 End Epoch 87/200
+train_loss: 1.0794  train_accuracy:0.4283  test_loss: 1.0762  test_accuracy:0.4368
+2023_03_12_04:20:45 End Epoch 88/200
+train_loss: 1.0794  train_accuracy:0.4281  test_loss: 1.0767  test_accuracy:0.4359
+2023_03_12_04:23:07 End Epoch 89/200
+train_loss: 1.0795  train_accuracy:0.4283  test_loss: 1.0763  test_accuracy:0.4354
+2023_03_12_04:25:29 End Epoch 90/200
+train_loss: 1.0792  train_accuracy:0.4284  test_loss: 1.0760  test_accuracy:0.4359
+2023_03_12_04:27:52 End Epoch 91/200
+train_loss: 1.0796  train_accuracy:0.4278  test_loss: 1.0761  test_accuracy:0.4362
+2023_03_12_04:30:16 End Epoch 92/200
+train_loss: 1.0797  train_accuracy:0.4276  test_loss: 1.0764  test_accuracy:0.4362
+2023_03_12_04:32:42 End Epoch 93/200
+train_loss: 1.0793  train_accuracy:0.4284  test_loss: 1.0764  test_accuracy:0.4353
+2023_03_12_04:35:00 End Epoch 94/200
+train_loss: 1.0798  train_accuracy:0.4272  test_loss: 1.0773  test_accuracy:0.4365
+2023_03_12_04:37:21 End Epoch 95/200
+train_loss: 1.0795  train_accuracy:0.4279  test_loss: 1.0757  test_accuracy:0.4372
+2023_03_12_04:39:45 End Epoch 96/200
+train_loss: 1.0796  train_accuracy:0.4277  test_loss: 1.0760  test_accuracy:0.4375
+2023_03_12_04:42:05 End Epoch 97/200
+train_loss: 1.0794  train_accuracy:0.4281  test_loss: 1.0756  test_accuracy:0.4369
+2023_03_12_04:44:30 End Epoch 98/200
+train_loss: 1.0795  train_accuracy:0.4280  test_loss: 1.0758  test_accuracy:0.4360
+2023_03_12_04:46:52 End Epoch 99/200
+train_loss: 1.0796  train_accuracy:0.4277  test_loss: 1.0766  test_accuracy:0.4359
+2023_03_12_04:49:16 End Epoch 100/200
+train_loss: 1.0794  train_accuracy:0.4280  test_loss: 1.0772  test_accuracy:0.4355
+2023_03_12_04:51:38 End Epoch 101/200
+train_loss: 1.0796  train_accuracy:0.4278  test_loss: 1.0760  test_accuracy:0.4358
+2023_03_12_04:53:57 End Epoch 102/200
+train_loss: 1.0793  train_accuracy:0.4286  test_loss: 1.0766  test_accuracy:0.4356
+2023_03_12_04:56:22 End Epoch 103/200
+train_loss: 1.0797  train_accuracy:0.4278  test_loss: 1.0756  test_accuracy:0.4365
+2023_03_12_04:58:44 End Epoch 104/200
+train_loss: 1.0793  train_accuracy:0.4283  test_loss: 1.0758  test_accuracy:0.4364
+2023_03_12_05:01:05 End Epoch 105/200
+train_loss: 1.0792  train_accuracy:0.4287  test_loss: 1.0753  test_accuracy:0.4372
+2023_03_12_05:03:27 End Epoch 106/200
+train_loss: 1.0794  train_accuracy:0.4282  test_loss: 1.0760  test_accuracy:0.4362
+2023_03_12_05:05:50 End Epoch 107/200
+train_loss: 1.0796  train_accuracy:0.4279  test_loss: 1.0755  test_accuracy:0.4367
+2023_03_12_05:08:11 End Epoch 108/200
+train_loss: 1.0794  train_accuracy:0.4282  test_loss: 1.0764  test_accuracy:0.4359
+2023_03_12_05:10:30 End Epoch 109/200
+train_loss: 1.0798  train_accuracy:0.4274  test_loss: 1.0758  test_accuracy:0.4364
+2023_03_12_05:12:49 End Epoch 110/200
+train_loss: 1.0794  train_accuracy:0.4280  test_loss: 1.0756  test_accuracy:0.4369
+2023_03_12_05:15:11 End Epoch 111/200
+train_loss: 1.0793  train_accuracy:0.4282  test_loss: 1.0759  test_accuracy:0.4372
+2023_03_12_05:17:39 End Epoch 112/200
+train_loss: 1.0794  train_accuracy:0.4282  test_loss: 1.0770  test_accuracy:0.4359
+2023_03_12_05:20:01 End Epoch 113/200
+train_loss: 1.0798  train_accuracy:0.4274  test_loss: 1.0766  test_accuracy:0.4358
+2023_03_12_05:22:25 End Epoch 114/200
+train_loss: 1.0796  train_accuracy:0.4277  test_loss: 1.0759  test_accuracy:0.4359
+2023_03_12_05:24:47 End Epoch 115/200
+train_loss: 1.0793  train_accuracy:0.4286  test_loss: 1.0758  test_accuracy:0.4367
+2023_03_12_05:27:09 End Epoch 116/200
+train_loss: 1.0796  train_accuracy:0.4275  test_loss: 1.0766  test_accuracy:0.4367
+2023_03_12_05:29:31 End Epoch 117/200
+train_loss: 1.0796  train_accuracy:0.4278  test_loss: 1.0760  test_accuracy:0.4370
+2023_03_12_05:31:52 End Epoch 118/200
+train_loss: 1.0796  train_accuracy:0.4278  test_loss: 1.0763  test_accuracy:0.4370
+2023_03_12_05:34:16 End Epoch 119/200
+train_loss: 1.0798  train_accuracy:0.4275  test_loss: 1.0757  test_accuracy:0.4363
+2023_03_12_05:36:35 End Epoch 120/200
+train_loss: 1.0797  train_accuracy:0.4274  test_loss: 1.0753  test_accuracy:0.4374
+2023_03_12_05:38:55 End Epoch 121/200
+train_loss: 1.0794  train_accuracy:0.4283  test_loss: 1.0764  test_accuracy:0.4351
+2023_03_12_05:41:23 End Epoch 122/200
+train_loss: 1.0794  train_accuracy:0.4283  test_loss: 1.0754  test_accuracy:0.4371
+2023_03_12_05:43:48 End Epoch 123/200
+train_loss: 1.0796  train_accuracy:0.4279  test_loss: 1.0756  test_accuracy:0.4368
+2023_03_12_05:46:10 End Epoch 124/200
+train_loss: 1.0795  train_accuracy:0.4282  test_loss: 1.0764  test_accuracy:0.4353
+2023_03_12_05:48:30 End Epoch 125/200
+train_loss: 1.0795  train_accuracy:0.4279  test_loss: 1.0761  test_accuracy:0.4358
+2023_03_12_05:50:53 End Epoch 126/200
+train_loss: 1.0794  train_accuracy:0.4285  test_loss: 1.0756  test_accuracy:0.4366
+2023_03_12_05:53:15 End Epoch 127/200
+train_loss: 1.0795  train_accuracy:0.4282  test_loss: 1.0759  test_accuracy:0.4361
+2023_03_12_05:55:38 End Epoch 128/200
+train_loss: 1.0796  train_accuracy:0.4279  test_loss: 1.0765  test_accuracy:0.4362
+2023_03_12_05:58:01 End Epoch 129/200
+train_loss: 1.0797  train_accuracy:0.4274  test_loss: 1.0763  test_accuracy:0.4359
+2023_03_12_06:00:22 End Epoch 130/200
+train_loss: 1.0794  train_accuracy:0.4280  test_loss: 1.0764  test_accuracy:0.4348
+2023_03_12_06:02:45 End Epoch 131/200
+train_loss: 1.0797  train_accuracy:0.4277  test_loss: 1.0759  test_accuracy:0.4368
+2023_03_12_06:05:06 End Epoch 132/200
+train_loss: 1.0797  train_accuracy:0.4274  test_loss: 1.0768  test_accuracy:0.4372
+2023_03_12_06:07:30 End Epoch 133/200
+train_loss: 1.0795  train_accuracy:0.4279  test_loss: 1.0764  test_accuracy:0.4370
+2023_03_12_06:09:49 End Epoch 134/200
+train_loss: 1.0793  train_accuracy:0.4287  test_loss: 1.0754  test_accuracy:0.4370
+2023_03_12_06:12:09 End Epoch 135/200
+train_loss: 1.0795  train_accuracy:0.4281  test_loss: 1.0760  test_accuracy:0.4364
+2023_03_12_06:14:30 End Epoch 136/200
+train_loss: 1.0795  train_accuracy:0.4282  test_loss: 1.0753  test_accuracy:0.4375
+2023_03_12_06:16:49 End Epoch 137/200
+train_loss: 1.0794  train_accuracy:0.4281  test_loss: 1.0754  test_accuracy:0.4378
+2023_03_12_06:19:08 End Epoch 138/200
+train_loss: 1.0796  train_accuracy:0.4277  test_loss: 1.0758  test_accuracy:0.4373
+2023_03_12_06:21:32 End Epoch 139/200
+train_loss: 1.0797  train_accuracy:0.4277  test_loss: 1.0763  test_accuracy:0.4370
+2023_03_12_06:23:53 End Epoch 140/200
+train_loss: 1.0794  train_accuracy:0.4282  test_loss: 1.0759  test_accuracy:0.4363
+2023_03_12_06:26:17 End Epoch 141/200
+train_loss: 1.0796  train_accuracy:0.4277  test_loss: 1.0770  test_accuracy:0.4358
+2023_03_12_06:28:39 End Epoch 142/200
+train_loss: 1.0796  train_accuracy:0.4276  test_loss: 1.0765  test_accuracy:0.4360
+2023_03_12_06:31:02 End Epoch 143/200
+train_loss: 1.0793  train_accuracy:0.4284  test_loss: 1.0761  test_accuracy:0.4362
+2023_03_12_06:33:24 End Epoch 144/200
+train_loss: 1.0793  train_accuracy:0.4285  test_loss: 1.0762  test_accuracy:0.4352
+2023_03_12_06:35:45 End Epoch 145/200
+train_loss: 1.0797  train_accuracy:0.4276  test_loss: 1.0759  test_accuracy:0.4364
+2023_03_12_06:38:04 End Epoch 146/200
+train_loss: 1.0794  train_accuracy:0.4285  test_loss: 1.0761  test_accuracy:0.4359
+2023_03_12_06:40:27 End Epoch 147/200
+train_loss: 1.0797  train_accuracy:0.4275  test_loss: 1.0767  test_accuracy:0.4372
+2023_03_12_06:42:48 End Epoch 148/200
+train_loss: 1.0795  train_accuracy:0.4277  test_loss: 1.0760  test_accuracy:0.4364
+2023_03_12_06:45:12 End Epoch 149/200
+train_loss: 1.0796  train_accuracy:0.4279  test_loss: 1.0766  test_accuracy:0.4358
+2023_03_12_06:47:36 End Epoch 150/200
+train_loss: 1.0795  train_accuracy:0.4280  test_loss: 1.0757  test_accuracy:0.4362
+2023_03_12_06:49:59 End Epoch 151/200
+train_loss: 1.0796  train_accuracy:0.4278  test_loss: 1.0761  test_accuracy:0.4366
+2023_03_12_06:52:21 End Epoch 152/200
+train_loss: 1.0792  train_accuracy:0.4287  test_loss: 1.0756  test_accuracy:0.4366
+2023_03_12_06:54:46 End Epoch 153/200
+train_loss: 1.0797  train_accuracy:0.4278  test_loss: 1.0761  test_accuracy:0.4364
+2023_03_12_06:57:07 End Epoch 154/200
+train_loss: 1.0795  train_accuracy:0.4277  test_loss: 1.0765  test_accuracy:0.4351
+2023_03_12_06:59:33 End Epoch 155/200
+train_loss: 1.0792  train_accuracy:0.4292  test_loss: 1.0757  test_accuracy:0.4367
+2023_03_12_07:01:55 End Epoch 156/200
+train_loss: 1.0797  train_accuracy:0.4275  test_loss: 1.0757  test_accuracy:0.4371
+2023_03_12_07:04:15 End Epoch 157/200
+train_loss: 1.0798  train_accuracy:0.4273  test_loss: 1.0754  test_accuracy:0.4370
+2023_03_12_07:06:42 End Epoch 158/200
+train_loss: 1.0796  train_accuracy:0.4276  test_loss: 1.0757  test_accuracy:0.4363
+2023_03_12_07:09:03 End Epoch 159/200
+train_loss: 1.0796  train_accuracy:0.4277  test_loss: 1.0757  test_accuracy:0.4366
+2023_03_12_07:11:27 End Epoch 160/200
+train_loss: 1.0796  train_accuracy:0.4279  test_loss: 1.0761  test_accuracy:0.4362
+2023_03_12_07:13:50 End Epoch 161/200
+train_loss: 1.0795  train_accuracy:0.4281  test_loss: 1.0758  test_accuracy:0.4366
+2023_03_12_07:16:11 End Epoch 162/200
+train_loss: 1.0796  train_accuracy:0.4276  test_loss: 1.0761  test_accuracy:0.4366
+2023_03_12_07:18:34 End Epoch 163/200
+train_loss: 1.0796  train_accuracy:0.4277  test_loss: 1.0770  test_accuracy:0.4362
+2023_03_12_07:20:58 End Epoch 164/200
+train_loss: 1.0798  train_accuracy:0.4275  test_loss: 1.0762  test_accuracy:0.4355
+2023_03_12_07:23:22 End Epoch 165/200
+train_loss: 1.0795  train_accuracy:0.4281  test_loss: 1.0760  test_accuracy:0.4357
+2023_03_12_07:25:45 End Epoch 166/200
+train_loss: 1.0793  train_accuracy:0.4285  test_loss: 1.0758  test_accuracy:0.4369
+2023_03_12_07:28:11 End Epoch 167/200
+train_loss: 1.0794  train_accuracy:0.4283  test_loss: 1.0765  test_accuracy:0.4362
+2023_03_12_07:30:32 End Epoch 168/200
+train_loss: 1.0794  train_accuracy:0.4280  test_loss: 1.0754  test_accuracy:0.4371
+2023_03_12_07:32:55 End Epoch 169/200
+train_loss: 1.0793  train_accuracy:0.4284  test_loss: 1.0760  test_accuracy:0.4357
+2023_03_12_07:35:23 End Epoch 170/200
+train_loss: 1.0797  train_accuracy:0.4275  test_loss: 1.0763  test_accuracy:0.4358
+2023_03_12_07:37:48 End Epoch 171/200
+train_loss: 1.0791  train_accuracy:0.4288  test_loss: 1.0772  test_accuracy:0.4353
+2023_03_12_07:40:12 End Epoch 172/200
+train_loss: 1.0796  train_accuracy:0.4278  test_loss: 1.0758  test_accuracy:0.4367
+2023_03_12_07:42:37 End Epoch 173/200
+train_loss: 1.0797  train_accuracy:0.4275  test_loss: 1.0762  test_accuracy:0.4357
+2023_03_12_07:44:59 End Epoch 174/200
+train_loss: 1.0798  train_accuracy:0.4273  test_loss: 1.0767  test_accuracy:0.4351
+2023_03_12_07:47:20 End Epoch 175/200
+train_loss: 1.0798  train_accuracy:0.4272  test_loss: 1.0758  test_accuracy:0.4361
+2023_03_12_07:49:36 End Epoch 176/200
+train_loss: 1.0797  train_accuracy:0.4275  test_loss: 1.0759  test_accuracy:0.4362
+2023_03_12_07:52:01 End Epoch 177/200
+train_loss: 1.0795  train_accuracy:0.4280  test_loss: 1.0764  test_accuracy:0.4350
+2023_03_12_07:54:20 End Epoch 178/200
+train_loss: 1.0794  train_accuracy:0.4281  test_loss: 1.0763  test_accuracy:0.4362
+2023_03_12_07:56:44 End Epoch 179/200
+train_loss: 1.0794  train_accuracy:0.4285  test_loss: 1.0762  test_accuracy:0.4364
+2023_03_12_07:59:05 End Epoch 180/200
+train_loss: 1.0792  train_accuracy:0.4287  test_loss: 1.0759  test_accuracy:0.4365
+2023_03_12_08:01:29 End Epoch 181/200
+train_loss: 1.0792  train_accuracy:0.4288  test_loss: 1.0754  test_accuracy:0.4374
+2023_03_12_08:03:51 End Epoch 182/200
+train_loss: 1.0796  train_accuracy:0.4280  test_loss: 1.0755  test_accuracy:0.4374
+2023_03_12_08:06:11 End Epoch 183/200
+train_loss: 1.0796  train_accuracy:0.4276  test_loss: 1.0755  test_accuracy:0.4367
+2023_03_12_08:08:36 End Epoch 184/200
+train_loss: 1.0796  train_accuracy:0.4279  test_loss: 1.0763  test_accuracy:0.4370
+2023_03_12_08:10:57 End Epoch 185/200
+train_loss: 1.0793  train_accuracy:0.4282  test_loss: 1.0759  test_accuracy:0.4359
+2023_03_12_08:13:22 End Epoch 186/200
+train_loss: 1.0795  train_accuracy:0.4282  test_loss: 1.0760  test_accuracy:0.4360
+2023_03_12_08:15:48 End Epoch 187/200
+train_loss: 1.0794  train_accuracy:0.4282  test_loss: 1.0763  test_accuracy:0.4366
+2023_03_12_08:18:16 End Epoch 188/200
+train_loss: 1.0796  train_accuracy:0.4277  test_loss: 1.0753  test_accuracy:0.4371
+2023_03_12_08:20:38 End Epoch 189/200
+train_loss: 1.0795  train_accuracy:0.4279  test_loss: 1.0764  test_accuracy:0.4351
+2023_03_12_08:23:01 End Epoch 190/200
+train_loss: 1.0792  train_accuracy:0.4289  test_loss: 1.0758  test_accuracy:0.4366
+2023_03_12_08:25:24 End Epoch 191/200
+train_loss: 1.0795  train_accuracy:0.4282  test_loss: 1.0746  test_accuracy:0.4387
+2023_03_12_08:27:48 End Epoch 192/200
+train_loss: 1.0795  train_accuracy:0.4280  test_loss: 1.0780  test_accuracy:0.4366
+2023_03_12_08:30:11 End Epoch 193/200
+train_loss: 1.0795  train_accuracy:0.4279  test_loss: 1.0759  test_accuracy:0.4365
+2023_03_12_08:32:34 End Epoch 194/200
+train_loss: 1.0793  train_accuracy:0.4283  test_loss: 1.0760  test_accuracy:0.4358
+2023_03_12_08:34:57 End Epoch 195/200
+train_loss: 1.0794  train_accuracy:0.4285  test_loss: 1.0759  test_accuracy:0.4358
+2023_03_12_08:37:20 End Epoch 196/200
+train_loss: 1.0796  train_accuracy:0.4275  test_loss: 1.0763  test_accuracy:0.4350
+2023_03_12_08:39:43 End Epoch 197/200
+train_loss: 1.0794  train_accuracy:0.4280  test_loss: 1.0756  test_accuracy:0.4372
+2023_03_12_08:42:02 End Epoch 198/200
+train_loss: 1.0793  train_accuracy:0.4285  test_loss: 1.0760  test_accuracy:0.4364
+2023_03_12_08:44:26 End Epoch 199/200
+train_loss: 1.0797  train_accuracy:0.4278  test_loss: 1.0762  test_accuracy:0.4361
+2023_03_12_08:46:48 End Epoch 200/200
+train_loss: 1.0793  train_accuracy:0.4283  test_loss: 1.0759  test_accuracy:0.4361
